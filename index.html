@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Portfolio</title>
+    <title>TEAM A.J | Portfolio</title>
 
     <link rel="icon"
           type="image/x-icon"
@@ -18,7 +19,7 @@
           href="https://fonts.gstatic.com"
           crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:wght@400;500;700;900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
           rel="stylesheet">
 
     <!-- CSS -->
@@ -27,222 +28,345 @@
 
 <body>
 
-    <!-- =========================
-         HEADER SECTION
-    ========================== -->
+    <!-- HEADER / NAVIGATION -->
 
-    <div class="header" id="header">
+    <header class="header" id="header">
 
-        <!-- Logo -->
-        <span class="logo">A.J</span>
+        <a href="#home" class="logo">A.J</a>
 
-        <!-- Navigation Links -->
-        <div class="nav">
+        <nav class="nav" aria-label="Main navigation">
 
             <a href="#home">HOME</a>
             <a href="#about">ABOUT</a>
             <a href="#gallery">GALLERY</a>
-            <a href="#hobbies">HOBBIES</a>
+            <a href="#tools">TOOLS</a>
+            <a href="#projects">PROJECTS</a>
             <a href="#contact">CONTACT</a>
 
-        </div>
+        </nav>
 
-    </div>
-
-
-    <!-- =========================
-         HOME SECTION
-    ========================== -->
-
-    <div class="home" id="home">
-
-        <h4 class="intro">
-            Hello, We Are
-        </h4>
-
-        <h1 class="team">
-            TEAM A.J
-        </h1>
-
-        <h4 class="category">
-            Web Designer
-        </h4>
-
-    </div>
+    </header>
 
 
-    <!-- =========================
-         ABOUT SECTION
-    ========================== -->
+    <!-- HOME / BANNER-->
 
-    <div class="about" id="about">
+    <section class="home" id="home">
 
-        <h3 class="title">
-            ABOUT SECTION
-        </h3>
+        <h4 class="intro">Hello, We Are</h4>
 
+        <h1 class="team">TEAM A.J</h1>
 
-        <!-- FIRST PROFILE -->
+        <h4 class="category">Web Designer</h4>
 
-        <div class="profile">
-
-            <img src="img/profile/profile1.jpg"
-                 alt="Angel Ann Napalliaton">
-
-            <div class="bio">
-
-                <h3 class="name">
-                    Angel Ann Napalliaton
-                </h3>
-
-                <p class="row">
-                    Confused Web Designer
-                </p>
-
-                <p class="decription">
-                    Curreently Married
-                </p>
-
-            </div>
-
-        </div>
+    </section>
 
 
-        <!-- SECOND PROFILE -->
+    <!--  ABOUT SECTION -->
 
-        <div class="profile">
+    <section class="about" id="about">
 
-            <img src="img/profile/profile2.jpg"
-                 alt="Shinrey James De Asis">
+        <h2 class="title">ABOUT SECTION</h2>
 
-            <div class="bio">
+        <div class="profiles">
 
-                <h3 class="name">
-                    Shinrey James De Asis
-                </h3>
+            <!-- FIRST PROFILE -->
 
-                <p class="row">
-                    Lazy Web Designer
-                </p>
+            <article class="profile">
 
-                <p class="decription">
-                    Curreently Not Racist
-                </p>
+                <img src="img/profile/profile1.jpg"
+                     alt="Angel Ann Napalliaton">
 
-            </div>
+                <div class="bio">
+
+                    <h3 class="name">
+                        Angel Ann Napalliaton
+                    </h3>
+
+                    <p class="row">
+                        Confused Web Designer
+                    </p>
+
+                    <p class="description">
+                        Currently Married
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- SECOND PROFILE -->
+
+            <article class="profile">
+
+                <img src="img/profile/profile2.jpg"
+                     alt="Shinrey James De Asis">
+
+                <div class="bio">
+
+                    <h3 class="name">
+                        Shinrey James De Asis
+                    </h3>
+
+                    <p class="row">
+                        Lazy Web Designer
+                    </p>
+
+                    <p class="description">
+                        Currently Learning Web Design
+                    </p>
+
+                </div>
+
+            </article>
 
         </div>
 
-    </div>
-    <!-- IMPORTANT: ABOUT SECTION ENDS HERE -->
+    </section>
 
 
-    <!-- =========================
-         GALLERY SECTION
-    ========================== -->
+    <!-- GALLERY SECTION -->
 
-    <div class="gallery" id="gallery">
+    <section class="gallery" id="gallery">
 
-        <h3 class="title gallery-title">
-            GALLERY
-        </h3>
+        <h2 class="title">GALLERY</h2>
 
         <div class="photos">
 
             <div class="image">
-                <img src="img/gallery/gallery1.jpg" alt="Gallery Photo 1">
+                <img src="img/gallery/gallery1.jpg"
+                     alt="Team photo 1"
+                     loading="lazy">
             </div>
 
             <div class="image">
-                <img src="img/gallery/gallery2.jpg" alt="Gallery Photo 2">
+                <img src="img/gallery/gallery2.jpg"
+                     alt="Team photo 2"
+                     loading="lazy">
             </div>
 
             <div class="image">
-                <img src="img/gallery/gallery3.jpg" alt="Gallery Photo 3">
+                <img src="img/gallery/gallery3.jpg"
+                     alt="Team photo 3"
+                     loading="lazy">
+            </div>
+
+            <!-- Verify the actual filename of this image -->
+            <div class="image">
+                <img src="img/gallery/gallery4..jpg"
+                     alt="Team photo 4"
+                     loading="lazy">
             </div>
 
             <div class="image">
-                <img src="img/gallery/gallery4..jpg" alt="Gallery Photo 4">
+                <img src="img/gallery/gallery5.jpg"
+                     alt="Team photo 5"
+                     loading="lazy">
             </div>
 
             <div class="image">
-                <img src="img/gallery/gallery5.jpg" alt="Gallery Photo 5">
-            </div>
-
-            <div class="image">
-                <img src="img/gallery/gallery6.jpg" alt="Gallery Photo 6">
+                <img src="img/gallery/gallery6.jpg"
+                     alt="Team photo 6"
+                     loading="lazy">
             </div>
 
         </div>
 
-    </div>
+    </section>
 
 
-    <!-- =========================
-         CONTACT SECTION
-    ========================== -->
+    <!-- TOOLS SECTION -->
 
-    <div class="contact" id="contact">
+    <section class="tools" id="tools">
 
-        <h3 class="title">
-            CONTACTS
-        </h3>
+        <h2 class="title">TOOLS WE USE</h2>
+
+        <div class="tool-details">
+
+            <article class="tool-card">
+                <h3>HTML</h3>
+                <p>Structures our website content.</p>
+            </article>
+
+            <article class="tool-card">
+                <h3>CSS</h3>
+                <p>Styles our layouts and designs.</p>
+            </article>
+
+            <article class="tool-card">
+                <h3>VS Code</h3>
+                <p>Our code editor for web development.</p>
+            </article>
+
+            <article class="tool-card">
+                <h3>Git</h3>
+                <p>Tracks changes in our source code.</p>
+            </article>
+
+            <article class="tool-card">
+                <h3>GitHub</h3>
+                <p>Hosts our repository and supports collaboration.</p>
+            </article>
+
+            <article class="tool-card">
+                <h3>Vercel</h3>
+                <p>Deploys our portfolio online.</p>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS SECTION -->
+
+    <section class="projects" id="projects">
+
+        <h2 class="title">OUR PROJECTS</h2>
+
+        <div class="project-details">
+
+            <article class="project-card">
+
+                <span class="project-number">PROJECT 01</span>
+
+                <h3 class="project-name">KlasMojo</h3>
+
+                <p class="project-desc">
+                    This web-based application was created to
+                    monitor student attendance and manage quizzes.
+                    It was built using HTML, CSS, JavaScript,
+                    PHP, and MySQL.
+                </p>
+
+                <p class="project-tech">
+                    HTML · CSS · JavaScript · PHP · MySQL
+                </p>
+
+            </article>
+
+            <article class="project-card">
+
+                <span class="project-number">PROJECT 02</span>
+
+                <h3 class="project-name">TEAM A.J Portfolio</h3>
+
+                <p class="project-desc">
+                    A group portfolio website that showcases
+                    our members, gallery, tools, projects,
+                    and contact information.
+                </p>
+
+                <p class="project-tech">
+                    HTML · CSS · Git · GitHub · Vercel
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!--CONTACT SECTION -->
+
+    <section class="contact" id="contact">
+
+        <h2 class="title">LET'S WORK TOGETHER</h2>
+
+        <p class="contact-intro">
+            Feel free to contact us for questions
+            or collaboration.
+        </p>
 
         <div class="contact-info">
 
-            <!-- PHONE ICON -->
+            <!-- MOBILE NUMBER -->
 
-            <div class="icon">
+            <a class="contact-item" href="tel:09468169505">
 
-                <svg xmlns="http://www.w3.org/2000/svg"
-                     width="24"
-                     height="24"
-                     viewBox="0 0 24 24"
-                     fill="none"
-                     stroke="currentColor"
-                     stroke-width="2"
-                     stroke-linecap="round"
-                     stroke-linejoin="round"
-                     class="lucide lucide-phone">
+                <span class="contact-icon" aria-hidden="true">
+                    ☎
+                </span>
 
-                    <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.463A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A16 16 0 0 1 4 6a2 2 0 0 1-2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/>
+                <span class="contact-details">
 
-                </svg>
+                    <span class="contact-label">
+                        Mobile Number
+                    </span>
 
-            </div>
+                    <span class="contact-value">
+                        09468169505
+                    </span>
+
+                </span>
+
+            </a>
 
 
-            <!-- PHONE NUMBER INFORMATION -->
+            <!-- EMAIL ADDRESS -->
 
-            <div class="info">
+            <a class="contact-item"
+               href="mailto:shinreyjamesdeasis@gmail.com">
 
-                <label for="mobile">
-                    Mobile Number
-                </label>
+                <span class="contact-icon" aria-hidden="true">
+                    ✉
+                </span>
 
-                <h1 id="mobile">
-                    09468169505
-                </h1>
+                <span class="contact-details">
 
-            </div>
-            <div class="info">
+                    <span class="contact-label">
+                        Email Address
+                    </span>
 
-                <label for="mobile">
-                   Email Address
-                </label>
+                    <span class="contact-value">
+                        shinreyjamesdeasis@gmail.com
+                    </span>
 
-                <h1 id="mobile">
-                    shinreyjamesdeasis@gmail.com
-                </h1>
+                </span>
 
-            </div>
-
+            </a>
 
         </div>
 
-    </div>
+    </section>
+
+
+    <!--FOOTER SECTION -->
+
+    <footer class="footer" id="footer">
+
+        <a href="#home" class="footer-title">
+            TEAM A.J
+        </a>
+
+        <p class="footer-description">
+            Creativity, teamwork, and web design.
+        </p>
+
+        <nav class="footer-links" aria-label="Footer navigation">
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#tools">Tools</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <p class="copyright">
+            &copy; 2026 TEAM A.J. All rights reserved.
+        </p>
+
+    </footer>
+
+    
+<!-- Back to Top Button -->
+<a href="#home" class="back-to-top" aria-label="Back to top" title="Back to top">
+    &#8593;
+</a>
 
 
 </body>
 </html>
-
